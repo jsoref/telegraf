@@ -195,7 +195,7 @@ by running Telegraf with the `--debug` argument.
     - total_index_size (integer)
     - ok (integer)
     - count (integer)
-    - type (tring)
+    - type (string)
 
 - mongodb_shard_stats
   - tags:
