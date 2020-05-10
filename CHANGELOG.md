@@ -2079,7 +2079,7 @@ consistent with the behavior of `collection_jitter`.
 - [#1390](https://github.com/influxdata/telegraf/pull/1390): Add support for Tengine
 - [#1320](https://github.com/influxdata/telegraf/pull/1320): Logparser input plugin for parsing grok-style log patterns.
 - [#1397](https://github.com/influxdata/telegraf/issues/1397): ElasticSearch: now supports connecting to ElasticSearch via SSL
-- [#1262](https://github.com/influxdata/telegraf/pull/1261): Add graylog input pluging.
+- [#1262](https://github.com/influxdata/telegraf/pull/1261): Add graylog input plugin.
 - [#1294](https://github.com/influxdata/telegraf/pull/1294): consul input plugin. Thanks @harnash
 - [#1164](https://github.com/influxdata/telegraf/pull/1164): conntrack input plugin. Thanks @robinpercy!
 - [#1165](https://github.com/influxdata/telegraf/pull/1165): vmstat input plugin. Thanks @jshim-xm!
