@@ -144,7 +144,7 @@ func metricMatchesResponse(metric Metric, response ReadResponse) bool {
 	return false
 }
 
-// compactPoints attepts to remove points by compacting points
+// compactPoints attempts to remove points by compacting points
 // with matching tag sets. When a match is found, the fields from
 // one point are moved to another, and the empty point is removed.
 func compactPoints(points []point) []point {
