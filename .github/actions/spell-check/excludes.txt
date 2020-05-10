@@ -1,0 +1,10 @@
+/testdata/
+\.dat$
+\.pem$
+^go\.(?:mod|sum)$
+^plugins/inputs/nstat/README\.md$
+^plugins/inputs/ping/ping_windows_test\.go$
+^plugins/inputs/win_perf_counters/README\.md$
+^plugins/outputs/stackdriver/stackdriver_test\.go$
+^\.github/actions/spell-check/
+^\.github/workflows/

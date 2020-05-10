@@ -1,0 +1,25 @@
+# hex digits
+(?:0[Xx]|U\+|#)[a-f0-9A-FGgRr]{2,}[Uu]?[Ll]?\b
+
+# long runs of a single character
+\b([A-Za-z])\1{3,}\b
+
+# Windows paths
+\\telegraf
+
+# The U/u is intentionally omitted to avoid case issues.
+"nknown table 'user_statistics'"
+
+# ...
+https://www.juniper.net/documentation/en_US/junos/topics/concept/junos-telemetry-interface-oveview.html
+
+"[a-z0-9]*wiihqumwmqgggemzoaivm[a-z0-9]*"
+spelling of memoory
+state_kv_commiting_lat
+
+"Database modifys/sec"
+"# of Exceps Thrown / sec"
+Détérioration
+Humidité
+Luminosité
+name=Temp.*,type=com.fibaro.temperatureSensor
