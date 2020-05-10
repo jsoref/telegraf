@@ -388,7 +388,7 @@ const streamUpstreamsPayload = `
 			"state": "up",
 			"active": 0,
 			"max_conns": 30,
-			"connecions": 1231,
+			"connections": 1231,
 			"sent": 251946292,
 			"received": 19222475454,
 			"fails": 0,
