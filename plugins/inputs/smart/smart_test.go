@@ -922,7 +922,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 194 Temperature_Celsius     -O---K   066   065   ---    -    34 (Min/Max 19/65)
 199 UDMA_CRC_Error_Count    -O--CK   100   100   ---    -    0
 230 Unknown_SSD_Attribute   -O--CK   100   100   ---    -    2229110374919
-232 Available_Reservd_Space PO--CK   100   100   004    -    100
+232 Available_Reserved_Space PO--CK   100   100   004    -    100
 233 Media_Wearout_Indicator -O--CK   100   100   ---    -    3129
 234 Unknown_Attribute       -O--CK   100   100   ---    -    7444
 241 Total_LBAs_Written      ----CK   253   253   ---    -    4812
