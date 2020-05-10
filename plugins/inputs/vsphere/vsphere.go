@@ -200,11 +200,11 @@ var sampleConfig = `
   ## separator character to use for measurement and field names (default: "_")
   # separator = "_"
 
-  ## number of objects to retreive per query for realtime resources (vms and hosts)
+  ## number of objects to retrieve per query for realtime resources (vms and hosts)
   ## set to 64 for vCenter 5.5 and 6.0 (default: 256)
   # max_query_objects = 256
 
-  ## number of metrics to retreive per query for non-realtime resources (clusters and datastores)
+  ## number of metrics to retrieve per query for non-realtime resources (clusters and datastores)
   ## set to 64 for vCenter 5.5 and 6.0 (default: 256)
   # max_query_metrics = 256
 
