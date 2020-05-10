@@ -75,7 +75,7 @@ Interface Stats for re1               IPv4             IPv6
     Blocked                            107                0
 
 State Table                          Total             Rate
-  Current Entrys                       649
+  Current Entries                       649
   searches                     18421725761         1317.0/s
   inserts                        156762508           11.2/s
   removals                       156761859           11.2/s
