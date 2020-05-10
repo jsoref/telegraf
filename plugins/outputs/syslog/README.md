@@ -64,7 +64,7 @@ Syslog messages are formatted according to
   # sdparam_separator = "_"
 
   ## Default sdid used for tags/fields that don't contain a prefix defined in
-  ## the explict sdids setting below If no default is specified, no SD-PARAMs
+  ## the explicit sdids setting below If no default is specified, no SD-PARAMs
   ## will be used for unrecognised field.
   # default_sdid = "default@32473"
 
