@@ -53,7 +53,7 @@ type pluginData struct {
 
 // parse JSON from fluentd Endpoint
 // Parameters:
-// 		data: unprocessed json recivied from endpoint
+// 		data: unprocessed json received from endpoint
 //
 // Returns:
 //		pluginData:		slice that contains parsed plugins
