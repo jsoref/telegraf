@@ -1,7 +1,7 @@
 /***
 The code contained here came from https://github.com/mongodb/mongo-tools/blob/master/mongostat/stat_types.go
 and contains modifications so that no other dependency from that project is needed. Other modifications included
-removing uneccessary code specific to formatting the output and determine the current state of the database. It
+removing unnecessary code specific to formatting the output and determine the current state of the database. It
 is licensed under Apache Version 2.0, http://www.apache.org/licenses/LICENSE-2.0.html
 ***/
 
