@@ -234,7 +234,7 @@ func (c *FakeConsumerGroupClaim) InitialOffset() int64 {
 	panic("not implemented")
 }
 
-func (c *FakeConsumerGroupClaim) HighWaterMarkOffset() int64 {
+func (c *FakeConsumerGroupClaim) HiWaterMarkOffset() int64 {
 	panic("not implemented")
 }
 

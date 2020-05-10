@@ -1159,7 +1159,7 @@ func (e *Endpoint) collectChunk(ctx context.Context, pqs queryChunk, res *resour
 				}
 				count++
 
-				// Update highwater marks
+				// Update hiwater marks
 				e.hwMarks.Put(moid, name, ts)
 			}
 			if nValues == 0 {
