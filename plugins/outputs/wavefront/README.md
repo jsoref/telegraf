@@ -71,7 +71,7 @@ source of the metric.
 ### Wavefront Data format
 The expected input for Wavefront is specified in the following way:
 ```
-<metric> <value> [<timestamp>] <source|host>=<soureTagValue> [tagk1=tagv1 ...tagkN=tagvN]
+<metric> <value> [<timestamp>] <source|host>=<sourceTagValue> [tagk1=tagv1 ...tagkN=tagvN]
 ```
 More information about the Wavefront data format is available [here](https://community.wavefront.com/docs/DOC-1031)
 
