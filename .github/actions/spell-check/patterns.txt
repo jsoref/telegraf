@@ -16,6 +16,7 @@ https://www.juniper.net/documentation/en_US/junos/topics/concept/junos-telemetry
 "[a-z0-9]*wiihqumwmqgggemzoaivm[a-z0-9]*"
 spelling of memoory
 state_kv_commiting_lat
+Available_Reservd_Space
 
 "Database modifys/sec"
 "# of Exceps Thrown / sec"
