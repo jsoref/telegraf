@@ -313,7 +313,7 @@ func (s *Syslog) handle(conn net.Conn, acc telegraf.Accumulator) {
 		opts = append(opts, syslog.WithBestEffort())
 	}
 
-	// Select the parser to use depeding on transport framing
+	// Select the parser to use depending on transport framing
 	if s.Framing == framing.OctetCounting {
 		// Octet counting transparent framing
 		p = octetcounting.NewParser(opts...)
