@@ -77,7 +77,7 @@ func TestRabbitMQGeneratesMetrics(t *testing.T) {
 
 	queuesMetrics := map[string]interface{}{
 		"consumers":                 3,
-		"consumer_utilisation":      1.0,
+		"consumer_utilization":      1.0,
 		"memory":                    143776,
 		"message_bytes":             3,
 		"message_bytes_ready":       4,

@@ -564,7 +564,7 @@ type StatLine struct {
 	CacheDirtyPercent float64
 	CacheUsedPercent  float64
 
-	// Cache ultilization extended (wiredtiger only)
+	// Cache utilization extended (wiredtiger only)
 	TrackedDirtyBytes         int64
 	CurrentCachedBytes        int64
 	MaxBytesConfigured        int64
