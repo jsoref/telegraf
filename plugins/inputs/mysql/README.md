@@ -283,7 +283,7 @@ The unit of fields varies by the tags.
     * events_statements_rows_examined_total(float, number)
     * events_statements_tmp_tables_total(float, number)
     * events_statements_tmp_disk_tables_total(float, number)
-    * events_statements_sort_merge_passes_totales(float, number)
+    * events_statements_sort_merge_passes_totals(float, number)
     * events_statements_sort_rows_total(float, number)
     * events_statements_no_index_used_total(float, number)
 * Table schema - gathers statistics of each schema. It has following measurements
