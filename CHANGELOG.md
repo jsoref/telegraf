@@ -2258,7 +2258,7 @@ It is not included on the report path. This is necessary for reporting host disk
 - [#1041](https://github.com/influxdata/telegraf/issues/1041): Add `n_cpus` field to the system plugin.
 - [#1072](https://github.com/influxdata/telegraf/pull/1072): New Input Plugin: filestat.
 - [#1066](https://github.com/influxdata/telegraf/pull/1066): Replication lag metrics for MongoDB input plugin
-- [#1086](https://github.com/influxdata/telegraf/pull/1086): Ability to specify AWS keys in config file. Thanks @johnrengleman!
+- [#1086](https://github.com/influxdata/telegraf/pull/1086): Ability to specify AWS keys in config file. Thanks @johnrengelman!
 - [#1096](https://github.com/influxdata/telegraf/pull/1096): Performance refactor of running output buffers.
 - [#967](https://github.com/influxdata/telegraf/issues/967): Buffer logging improvements.
 - [#1107](https://github.com/influxdata/telegraf/issues/1107): Support lustre2 job stats. Thanks @hanleyja!
