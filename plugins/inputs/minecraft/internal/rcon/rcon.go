@@ -112,7 +112,7 @@ func (c *Client) Execute(command string) (response *Packet, err error) {
 
 // Sends accepts the commands type and its string to execute to the clients server,
 // creating a packet with a random challenge id for the server to mirror,
-// and compiling its payload bytes in the appropriate order. The resonse is
+// and compiling its payload bytes in the appropriate order. The response is
 // decompiled from its bytes into a Packet type for return. An error is returned
 // if send fails.
 func (c *Client) Send(typ int32, command string) (response *Packet, err error) {
@@ -152,7 +152,7 @@ func (c *Client) Send(typ int32, command string) (response *Packet, err error) {
 	}
 
 	if packet.Header.Type == Auth && header.Type == ResponseValue {
-		// Discard, empty SERVERDATA_RESPOSE_VALUE from authorization.
+		// Discard, empty SERVERDATA_RESPONSE_VALUE from authorization.
 		c.Connection.Read(make([]byte, header.Size-int32(PacketHeaderSize)))
 
 		// Reread the packet header.
