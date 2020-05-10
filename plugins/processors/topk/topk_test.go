@@ -35,7 +35,7 @@ type metricChange struct {
 	newTags   []tag   // Tags that should be added to the metric
 
 	runHash bool // Sometimes the metrics' HashID must be run so reflect.DeepEqual works
-	// This happens because telegraf.Metric mantains an internal cache of
+	// This happens because telegraf.Metric maintains an internal cache of
 	// its hash value that is set when HashID() is called for the first time
 }
 
