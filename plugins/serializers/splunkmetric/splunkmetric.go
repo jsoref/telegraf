@@ -83,7 +83,7 @@ func (s *serializer) createMulti(metric telegraf.Metric, dataGroup HECTimeSeries
 	dataGroup.Source = commonTags.Source
 	dataGroup.Fields = commonTags.Fields
 
-	// Stuff the metrid data into the structure.
+	// Stuff the metric data into the structure.
 	for _, field := range metric.FieldList() {
 		value, valid := verifyValue(field.Value)
 
