@@ -101,7 +101,7 @@ func (s *serializer) createMulti(metric telegraf.Metric, dataGroup HECTimeSeries
 		// Output the data as a fields array and host,index,time,source overrides for the HEC.
 		metricJSON, err = json.Marshal(dataGroup)
 	default:
-		// Just output the data and the time, useful for file based outuputs
+		// Just output the data and the time, useful for file based outputs
 		dataGroup.Fields["time"] = dataGroup.Time
 		metricJSON, err = json.Marshal(dataGroup.Fields)
 	}
@@ -149,7 +149,7 @@ func (s *serializer) createSingle(metric telegraf.Metric, dataGroup HECTimeSerie
 			// Output the data as a fields array and host,index,time,source overrides for the HEC.
 			metricJSON, err = json.Marshal(dataGroup)
 		default:
-			// Just output the data and the time, useful for file based outuputs
+			// Just output the data and the time, useful for file based outputs
 			dataGroup.Fields["time"] = dataGroup.Time
 			metricJSON, err = json.Marshal(dataGroup.Fields)
 		}
