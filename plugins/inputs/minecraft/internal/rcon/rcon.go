@@ -57,7 +57,7 @@ type Packet struct {
 	Body   string // Body of packet.
 }
 
-// Compile converts a packets header and body into its approriate
+// Compile converts a packets header and body into its appropriate
 // byte array payload, returning an error if the binary packages
 // Write method fails to write the header bytes in their little
 // endian byte order.
