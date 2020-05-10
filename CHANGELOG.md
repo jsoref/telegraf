@@ -1230,7 +1230,7 @@
 
 ### Release Notes
 
-- The `mysql` input plugin has been updated fix a number of type convertion
+- The `mysql` input plugin has been updated fix a number of type conversion
   issues.  This may cause a `field type error` when inserting into InfluxDB due
   the change of types.
 
