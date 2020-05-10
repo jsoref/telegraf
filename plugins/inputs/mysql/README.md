@@ -153,7 +153,7 @@ If you wish to remove the `name_suffix` you may use Kapacitor to copy the
 historical data to the default name.  Do this only after retiring the old
 measurement name.
 
-1. Use the techinique described above to write to multiple locations:
+1. Use the technique described above to write to multiple locations:
    ```toml
    [[inputs.mysql]]
      servers = ["tcp(127.0.0.1:3306)/"]
