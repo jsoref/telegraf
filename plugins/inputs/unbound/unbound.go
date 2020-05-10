@@ -126,7 +126,7 @@ func unboundRunner(cmdName string, Timeout internal.Duration, UseSudo bool, Serv
 // All the dots in stat name will replaced by underscores. Histogram statistics will not be collected.
 func (s *Unbound) Gather(acc telegraf.Accumulator) error {
 
-	// Always exclude histrogram statistics
+	// Always exclude histogram statistics
 	statExcluded := []string{"histogram.*"}
 	filterExcluded, err := filter.Compile(statExcluded)
 	if err != nil {
