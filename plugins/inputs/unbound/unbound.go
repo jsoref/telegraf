@@ -49,7 +49,7 @@ var sampleConfig = `
   ## The default location of the unbound config file can be overridden with:
   # config_file = "/etc/unbound/unbound.conf"
 
-  ## The default timeout of 1s can be overriden with:
+  ## The default timeout of 1s can be overridden with:
   # timeout = "1s"
 
   ## When set to true, thread metrics are tagged with the thread id.
