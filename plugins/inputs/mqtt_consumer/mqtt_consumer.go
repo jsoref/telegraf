@@ -194,7 +194,7 @@ func (m *MQTTConsumer) Start(acc telegraf.Accumulator) error {
 
 	// AddRoute sets up the function for handling messages.  These need to be
 	// added in case we find a persistent session containing subscriptions so we
-	// know where to dispatch presisted and new messages to.  In the alternate
+	// know where to dispatch persisted and new messages to.  In the alternate
 	// case that we need to create the subscriptions these will be replaced.
 	for _, topic := range m.Topics {
 		m.client.AddRoute(topic, m.recvMessage)
