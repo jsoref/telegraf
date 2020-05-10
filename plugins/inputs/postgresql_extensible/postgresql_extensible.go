@@ -153,7 +153,7 @@ func (p *Postgresql) Gather(acc telegraf.Accumulator) error {
 		columns     []string
 	)
 
-	// Retreiving the database version
+	// Retrieving the database version
 	query = `SELECT setting::integer / 100 AS version FROM pg_settings WHERE name = 'server_version_num'`
 	if err = p.DB.QueryRow(query).Scan(&db_version); err != nil {
 		db_version = 0
