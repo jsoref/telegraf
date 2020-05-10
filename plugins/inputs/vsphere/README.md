@@ -275,7 +275,7 @@ We can extend this to looking at a cluster level: ```/DC0/host/Cluster1/*/hadoop
 
 vCenter keeps two different kinds of metrics, known as realtime and historical metrics.
 
-* Realtime metrics: Avaialable at a 20 second granularity. These metrics are stored in memory and are very fast and cheap to query. Our tests have shown that a complete set of realtime metrics for 7000 virtual machines can be obtained in less than 20 seconds. Realtime metrics are only available on **ESXi hosts** and **virtual machine** resources. Realtime metrics are only stored for 1 hour in vCenter.
+* Realtime metrics: Available at a 20 second granularity. These metrics are stored in memory and are very fast and cheap to query. Our tests have shown that a complete set of realtime metrics for 7000 virtual machines can be obtained in less than 20 seconds. Realtime metrics are only available on **ESXi hosts** and **virtual machine** resources. Realtime metrics are only stored for 1 hour in vCenter.
 * Historical metrics: Available at a 5 minute, 30 minutes, 2 hours and 24 hours rollup levels. The vSphere Telegraf plugin only uses the 5 minute rollup. These metrics are stored in the vCenter database and can be expensive and slow to query. Historical metrics are the only type of metrics available for **clusters**, **datastores** and **datacenters**.
 
 For more information, refer to the vSphere documentation here: https://pubs.vmware.com/vsphere-50/index.jsp?topic=%2Fcom.vmware.wssdk.pg.doc_50%2FPG_Ch16_Performance.18.2.html
