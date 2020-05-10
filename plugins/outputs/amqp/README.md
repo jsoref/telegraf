@@ -40,7 +40,7 @@ For an introduction to AMQP see:
 
   ## Additional exchange arguments.
   # exchange_arguments = { }
-  # exchange_arguments = {"hash_propery" = "timestamp"}
+  # exchange_arguments = {"hash_property" = "timestamp"}
 
   ## Authentication credentials for the PLAIN auth_method.
   # username = ""
