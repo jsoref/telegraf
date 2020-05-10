@@ -33,7 +33,7 @@ This plugin writes to a [Wavefront](https://www.wavefront.com) proxy, in Wavefro
   #convert_paths = true
 
   ## Use Strict rules to sanitize metric and tag names from invalid characters
-  ## When enabled forward slash (/) and comma (,) will be accpeted
+  ## When enabled forward slash (/) and comma (,) will be accepted
   #use_strict = false
   
   ## Use Regex to sanitize metric and tag names from invalid characters
