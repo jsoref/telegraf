@@ -75,7 +75,7 @@ func TestResultCode(t *testing.T) {
 }
 
 type mockHandler struct {
-	// responseMap is the path to repsonse interface
+	// responseMap is the path to response interface
 	// we will output the serialized response in json when serving http
 	// example '/computer/api/json': *gojenkins.
 	responseMap map[string]interface{}
