@@ -2357,7 +2357,7 @@ because the `value` field is redundant in the graphite/librato context.
 - Primarily this release was cut to fix [#859](https://github.com/influxdata/telegraf/issues/859)
 
 ### Features
-- [#747](https://github.com/influxdata/telegraf/pull/747): Start telegraf on install & remove on uninstall. Thanks @pierref!
+- [#747](https://github.com/influxdata/telegraf/pull/747): Start telegraf on install & remove on uninstall. Thanks @PierreF!
 - [#794](https://github.com/influxdata/telegraf/pull/794): Add service reload ability. Thanks @entertainyou!
 
 ### Bugfixes
