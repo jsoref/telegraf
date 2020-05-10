@@ -373,7 +373,7 @@
 #### Release Notes
 
 - The cluster health related fields in the elasticsearch input have been split
-  out from the `elasticsearch_indices` mesasurement into the new
+  out from the `elasticsearch_indices` measurement into the new
   `elasticsearch_cluster_health_indices` measurement as they were originally
   combined by error.
 

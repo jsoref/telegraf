@@ -102,7 +102,7 @@ func TestCPUStats(t *testing.T) {
 	assertContainsTaggedFloat(t, &acc, "cpu", "usage_guest_nice", 2.2, 0.0005, cputags)
 }
 
-// Asserts that a given accumulator contains a measurment of type float64 with
+// Asserts that a given accumulator contains a measurement of type float64 with
 // specific tags within a certain distance of a given expected value. Asserts a failure
 // if the measurement is of the wrong type, or if no matching measurements are found
 //
