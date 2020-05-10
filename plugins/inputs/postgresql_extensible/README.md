@@ -16,7 +16,7 @@ The example below has two queries are specified, with the following parameters:
   # specify address via a url matching:
   # postgres://[pqgotest[:password]]@host:port[/dbname]?sslmode=...
   # or a simple string:
-  #   host=localhost port=5432 user=pqotest password=... sslmode=... dbname=app_production
+  #   host=localhost port=5432 user=pqgotest password=... sslmode=... dbname=app_production
   #
   # All connection parameters are optional.
   # Without the dbname parameter, the driver will default to a database
