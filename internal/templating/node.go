@@ -79,7 +79,7 @@ func (n *node) recursiveSearch(lineParts []string) *Template {
 
 	// given an exact match is found within children set
 	if i < length && n.children[i].value == lineParts[0] {
-		// decend into the matching node
+		// descend into the matching node
 		if tmpl := n.children[i].recursiveSearch(lineParts[1:]); tmpl != nil {
 			// given a template is found return it
 			return tmpl
