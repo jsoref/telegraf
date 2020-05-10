@@ -218,7 +218,7 @@ func (m *MQTTConsumer) connect() error {
 	m.state = Connected
 	m.messages = make(map[telegraf.TrackingID]bool)
 
-	// Presistent sessions should skip subscription if a session is present, as
+	// Persistent sessions should skip subscription if a session is present, as
 	// the subscriptions are stored by the server.
 	type sessionPresent interface {
 		SessionPresent() bool
